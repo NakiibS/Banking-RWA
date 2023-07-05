@@ -5,11 +5,14 @@ import Settings from "../pages/Settings/Settings";
 import BankAccounts from "../pages/BankAccounts/BankAccounts";
 import History from "../pages/History/History";
 import TransactionDetail from "../pages/TransactionDetail/TransactionDetail";
+import Logout from "../pages/Logout/Logout";
 const MainRoutes = () => {
+  
   return (
     <>
       <Routes>
         <Route path="/signup" element={<Signup />} />
+        <Route path="logout" element={<Logout/>} />
         <Route path="/" element={<Navigate to="/user/settings" replace />} />
         <Route path="/" element={<Layout />}>
           <Route path="user/settings" element={<Settings />} />

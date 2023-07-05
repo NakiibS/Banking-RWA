@@ -150,7 +150,6 @@ const Signup = () => {
     }
   }
 
-
   const blurPassword = () => {
 
     if (!password.value) {
@@ -289,6 +288,7 @@ const Signup = () => {
               >
                 Sign Up
             </Button>
+
             <span className={styles.Alert}>
               {loading ? "Loading ..." : formSubmitted}
             </span>

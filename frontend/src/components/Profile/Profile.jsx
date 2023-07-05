@@ -1,7 +1,7 @@
 import styles from './Profile.module.css'
 import Avatar from './../../assets/Avatar.png'
 
-const Profile = () => {
+const Profile = ({name, nick}) => {
 
   return (
 
@@ -10,8 +10,8 @@ const Profile = () => {
         <img className={styles.Photo} src={Avatar} alt="Avatar profile image"/>
 
         <span className={styles.Info}>
-            <span className={styles.Name}> Edgar J </span>
-            <span className={styles.Nick}> @Katharina_Bernier </span>
+            <span className={styles.Name}> {name} </span>
+            <span className={styles.Nick}> {nick} </span>
         </span>
         
 

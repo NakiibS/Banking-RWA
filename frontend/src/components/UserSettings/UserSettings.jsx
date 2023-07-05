@@ -3,7 +3,6 @@ import Input from '../Input/Input'
 import styles from './UserSettings.module.css'
 import { Link, useNavigate } from "react-router-dom";
 
-
 const UserSettings = () => {
 
     const navigate = useNavigate();
@@ -39,9 +38,6 @@ const UserSettings = () => {
                 > Save
                 </Button>        
         </div> 
-
-        
-
 
     </div>
   )
