@@ -1,0 +1,8 @@
+.Button{
+    margin-top: 1rem;
+    transition: transform 0.2s;
+}
+
+.Button:hover{
+    transform: scale(1.01);
+}
