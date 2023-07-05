@@ -1,0 +1,88 @@
+.Main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.Form{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 15rem;
+    background-color: #fafafa;
+    border-radius: 2%;
+    border: none;
+}
+
+.Header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.Logo{
+    width: 12em;
+    height: auto;
+}
+
+.Logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.Form input{
+    height: 3em;
+    width: 30em;
+    margin-bottom: 2em;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.Title h2{
+  font-size: 1.5em;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.Button{
+    width: 30em;
+    background-color: #346699;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    padding: 0.7em;
+    font-weight: 400;
+    margin-top: 1rem;
+    transition: transform 0.1s;
+}
+
+.Button:hover{
+    transform: scale(1.01);
+    background-color: #2b5a88;
+}
+
+.Form input:focus{
+    outline: none;
+    border: 3px solid #346699;
+}
+
+.Send{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.Alert{
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.56);
+    
+}

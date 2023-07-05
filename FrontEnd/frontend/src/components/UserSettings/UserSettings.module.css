@@ -1,0 +1,83 @@
+.Main{
+    border: 2px solid black;
+    background-color: #fff;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem;
+    position: relative;
+}
+
+.Title{
+    font-size: 1.8rem;
+    color: #2b5a88;
+    font-weight: 600;
+}
+
+.Content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.Img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.3;
+    overflow: hidden;
+}
+
+.Img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Input{
+    height: 3em;
+    width: 30em;
+    margin-bottom: 2em;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.Form{
+    z-index: 5;
+}
+
+.Form input{
+    height: 3em;
+    width: 35em;
+    margin-bottom: 2em;
+    border-radius: 4px;
+    padding: 0px 10px;
+}
+
+.Button{
+    width: 5em;
+    background-color: #346699;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    padding: 0.7em;
+    font-weight: 400;
+    margin-top: 1rem;
+    transition: transform 0.1s;
+    cursor: pointer;
+
+}
+
+.Button:hover{
+    transform: scale(1.01);
+    background-color: #2b5a88;
+}

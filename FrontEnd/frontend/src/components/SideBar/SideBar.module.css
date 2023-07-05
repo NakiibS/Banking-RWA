@@ -1,0 +1,47 @@
+.Main{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+    border: 1px solid rgba(0, 0, 0, 0.248);
+    width: fit-content;
+    padding: 2em 3em;
+    width: 100%;
+    height: 100% ;
+    font-size: 0.9em;
+    
+}
+
+.ListItem{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.526);
+}
+
+.ListItem svg{
+    width: 20px;
+    min-width: 20px;
+    height: 20px;
+}
+
+#Logout{
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 0.3em;
+    padding-top: 1em;
+    color: rgba(0, 0, 0, 0.749);
+}
+
+#Logout a{
+    text-decoration: none;
+}
+
+.SideBarContainer{
+    width: 100%;
+    height: 100% ;
+    display: flex;
+    flex-direction: column;
+
+}

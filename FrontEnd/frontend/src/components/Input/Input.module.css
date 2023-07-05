@@ -1,0 +1,16 @@
+.InputContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    position: relative;
+}
+
+.Error{
+    display: flex;
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 16.5rem;
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.512);
+}
